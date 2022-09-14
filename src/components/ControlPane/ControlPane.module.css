@@ -4,6 +4,8 @@
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  overflow-x: scroll;
+  position: relative;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
@@ -16,6 +18,9 @@
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  padding-bottom: 18px;
+  position: sticky;
+  left: 0px;
 }
 
 .metadata {
